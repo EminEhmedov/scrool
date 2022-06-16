@@ -1,0 +1,79 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+/* main{
+    height: 100vh;
+overflow-y: scroll;
+scroll-snap-type: y mandatory;
+
+   
+} */
+article{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    /* scroll-snap-align: center; */
+    /* scroll-margin-top: 50px; */
+  
+
+}
+
+#Home{
+    background-color: blue;
+}
+#Home1{
+    background-color: rgb(255, 81, 0);
+}
+#Home2{
+    background-color: rgb(0, 255, 0);
+}
+#Home3{
+    background-color: rgb(255, 0, 191);
+} 
+
+.button{
+width: 100px;
+height: 50px;
+background-color: darkgreen;
+border-radius: 15px;
+border: none;
+color: aliceblue;
+    position: fixed;
+    bottom: 800px;
+    right: 30px;
+   opacity: 0;
+z-index: 66;
+transition: 2s;
+
+}
+.button:hover{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+.activebtn{
+    bottom: 20px;
+opacity: 1;
+
+}
+.kvadrat{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: all 2s;
+    opacity: 0.2;
+}
+
+.kvadrat:hover{
+   opacity: 1;
+}
